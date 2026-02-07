@@ -67,7 +67,7 @@ local net = rs.Packages["_Index"]["sleitnick_net 0.2.0"].net
 -- Remote Definitions
 local ChargeRod       = net["RF/ChargeFishingRod"]
 local RequestGame     = net["RF/RequestFishingMiniGameStarted"]
-local CompleteGame    = net["RE/FishingCompleted"]
+local CompleteGame    = net["RF/CatchFishCompleted"]
 local CancelImput     = net["RF/CancelFishingInpunts]
 local SellAll         = net["RF/SellAllItems"]
 local EquipTank       = net["RF/EquiqOxygenTank"]
