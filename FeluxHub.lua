@@ -99,7 +99,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Playera.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
-local WindUI = -
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/febriansy108-crypto/FeluxHub/refs/heads/main/FeluxHubUI.lua"))()
 
 ==============================================
 -- AUTO WEATHER — (FINAL PATCH)
